@@ -1,0 +1,181 @@
+sample :perc_bell, rate: (rrand 0.125, 1.5)
+sample :bd_ada, rate: (rrand 0.125,1)
+play 88, amp: rand, release: 0.25
+sleep 0.125
+play 86, release: 0.25
+sleep 0.125
+play 88, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 83, release: 0.25
+sleep 0.125
+play 81, release: 0.25
+sleep 0.125
+play 83, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 80, release: 0.25
+sleep 0.125
+play 77, release: 0.25
+sleep 0.125
+play 80, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 80, release: 0.5
+sleep 0.25
+play 77, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 76, release: 0.5
+sleep 0.25
+play 77, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 77, release: 0.25
+sleep 0.125
+play 76, release: 0.25
+sleep 0.125
+play 74, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 74, release: 0.5
+sleep 0.25
+play 77, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,1)
+play 76
+sleep 0.5
+sample :bd_ada
+play 80, release: 0.25
+sleep 0.125
+play 81, release: 0.25
+sleep 0.125
+play 80, release: 0.25
+sleep 0.125
+play 81, release: 0.25
+sleep 0.125
+sample :bd_ada, rate: (rrand 0.125,1)
+play 83, release: 0.5
+sleep 0.25
+play 88, release: 0.25
+sleep 0.125
+play 86, release: 0.25
+sleep 0.125
+sample :bd_ada, rate: (rrand 0.125,1)
+play 88, release: 0.5
+sleep 0.25
+play 83, release: 0.25
+sleep 0.125
+play 81, release: 0.25
+sleep 0.125
+sample :bd_ada, rate: (rrand 0.125,1)
+play 83, release: 0.5
+sleep 0.25
+play 80, release: 0.25
+sleep 0.125
+play 77, release: 0.25
+sleep 0.125
+sample :bd_ada, rate: (rrand 0.125,3)
+play 80, release: 0.5
+sleep 0.25
+play 80, release: 0.5
+sleep 0.25
+sample :ambi_drone, rate: (rrand 0.125,3)
+play 77, release: 0.5
+sleep 0.25
+play 76, release: 0.5
+sleep 0.25
+sample :bd_ada, rate: (rrand 0.125,3)
+play 76
+sleep 0.5
+sample :ambi_haunted_hum, rate: (rrand 0.125,3)
+play 80
+sleep 0.5
+sample :bd_ada, rate: (rrand 0.125,3)
+play 83
+sleep 0.5
+sample :bd_ada, rate: (rrand 0.125,3)
+play 88,release: 0.5
+sleep 0.25
+play 88
+sleep 0.5
+2.times do
+  sample :perc_bell, rate: (rrand 0.125, 1.5)
+  sample :ambi_lunar_land
+  play 88
+  sleep 0.5
+  play 83, release: 1.5
+  sleep 0.75
+  sample :perc_bell, rate: (rrand 0.125, 1.5)
+  play 84, release: 0.25
+  sleep 0.125
+  play 86, release: 0.25
+  sleep 0.125
+  play 84, release: 0.25
+  sleep 0.125
+  play 83, release: 0.25
+  sleep 0.125
+  play 81, release: 1.5
+  sleep 0.75
+  play 80, release: 1.5
+  sleep 0.75
+  play 77, release: 0.25
+  sleep 0.125
+  play 80, release: 0.5
+  sleep 0.25
+  play 80, release: 0.5
+  sleep 0.25
+  play 81, release: 0.5
+  sleep 0.25
+  play 83
+  sleep 0.5
+  sample :perc_bell, rate: (rrand 0.125, 1.5)
+  play 76, release: 0.25
+  sleep 0.125
+  play 77, release: 0.25
+  sleep 0.125
+  play 80, release: 0.25
+  sleep 0.125
+  play 81, release: 0.25
+  sleep 0.125
+  play 83, release: 0.5
+  sleep 0.25
+  play 88
+  sleep 0.5
+  play 83, release: 1.5
+  sleep 0.75
+  sample :perc_bell, rate: (rrand 0.125, 1.5)
+  play 84, release: 0.25
+  sleep 0.125
+  play 86, release: 0.25
+  sleep 0.125
+  play 84, release: 0.25
+  sleep 0.125
+  play 83, release: 0.25
+  sleep 0.125
+  play 81, release: 1.5
+  sleep 0.75
+  play 80, release: 1.5
+  sleep 0.75
+  play 76, release: 0.25
+  sleep 0.125
+  play 77, release: 0.5
+  sleep 0.25
+  play 77, release: 0.5
+  sleep 0.25
+  play 74, release: 0.5
+  sleep 0.25
+  play 76
+  sleep 0.5
+  sample :perc_bell, rate: (rrand 0.125, 1.5)
+  play 83, release: 0.25
+  sleep 0.125
+  play 81, release: 0.25
+  sleep 0.125
+  play 80, release: 0.25
+  sleep 0.125
+  play 77, release: 0.25
+  sleep 0.125
+  play 76, release: 0.5
+  sleep 0.25
+end
