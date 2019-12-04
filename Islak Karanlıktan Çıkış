@@ -1,0 +1,287 @@
+in_thread do
+  loop do
+    sample :drum_heavy_kick
+    play 57, release: 1
+    play 69, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    play 60, release: 1
+    play 69, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    play 57, release: 1
+    play 69, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    play 60, release: 1
+    play 69, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    #
+    sample :drum_heavy_kick
+    play 55, release: 1
+    play 67, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    play 60, release: 1
+    play 67, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    play 55, release: 1
+    play 67, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    play 60, release: 1
+    play 67, release: 1
+    sleep 0.5
+    play 64, release: 1
+    sleep 0.5
+    #
+    sample :drum_heavy_kick
+    play 59, release: 1
+    play 71, release: 1
+    sleep 0.5
+    play 65, release: 1
+    sleep 0.5
+    play 62, release: 1
+    play 71, release: 1
+    sleep 0.5
+    play 65, release: 1
+    sleep 0.5
+    play 59, release: 1
+    play 71, release: 1
+    sleep 0.5
+    play 65, release: 1
+    sleep 0.5
+    play 62, release: 1
+    play 71, release: 1
+    sleep 0.5
+    play 65, release: 1
+    sleep 0.5
+    #
+    sample :drum_heavy_kick
+    play 53, release: 1
+    play 65, release: 1
+    sleep 0.5
+    play 60, release: 1
+    sleep 0.5
+    play 57, release: 1
+    play 65, release: 1
+    sleep 0.5
+    play 60, release: 1
+    sleep 0.5
+    play 53, release: 1
+    play 65, release: 1
+    sleep 0.5
+    play 60, release: 1
+    sleep 0.5
+    play 57, release: 1
+    play 65, release: 1
+    sleep 0.5
+    play 60, release: 1
+    sleep 0.5
+  end
+end
+sample :loop_amen
+play 88
+sleep 0.75
+sleep 0.75
+play 88
+sleep 0.5
+sample :loop_amen
+play 89
+sleep 1
+play 91
+sleep 1
+#
+sample :loop_amen
+play 86
+sleep 1.5
+play 86
+sleep 0.5
+sample :loop_amen
+play 84
+sleep 1
+play 83
+sleep 1
+#
+sample :loop_amen
+play 86
+sleep 1.5
+play 86
+sleep 0.5
+sample :loop_amen
+play 88
+sleep 1
+play 89
+sleep 1
+#
+play 84
+sleep 1.5
+play 84
+sleep 0.5
+sample :loop_amen
+play 83
+sleep 1
+play 81
+sleep 1
+#######
+play 88
+sleep 2
+sleep 0.5
+play 88
+sleep 0.5
+play 89
+sleep 0.5
+play 91
+sleep 0.5
+#
+play 86
+sleep 2.5
+play 86
+sleep 0.5
+play 84
+sleep 0.5
+play 83
+sleep 0.5
+#
+play 86
+sleep 2.5
+play 86
+sleep 0.5
+play 88
+sleep 0.5
+play 89
+sleep 0.5
+#
+play 84
+sleep 2.5
+play 84
+sleep 0.5
+play 83
+sleep 0.5
+play 81
+sleep 0.5
+########
+
+play 86
+sleep 1.5
+play 84
+sleep 1
+play 81
+sleep 0.5
+play 83
+sleep 0.5
+play 84
+sleep 0.5
+#
+play 86
+sleep 1.5
+play 79
+sleep 2.5
+#
+play 83
+sleep 1.5
+play 81
+sleep 2.5
+#
+play 81
+sleep 1
+play 80
+sleep 0.5
+play 81
+sleep 0.5
+play 83
+sleep 0.5
+play 84
+sleep 0.5
+play 83
+sleep 0.5
+play 81
+sleep 0.5
+#######
+2.times do
+  play 86
+  sleep 1.5
+  play 84
+  sleep 1
+  play 81
+  sleep 0.5
+  play 83
+  sleep 0.5
+  play 84
+  sleep 0.5
+  #
+  play 86
+  sleep 1.5
+  play 85
+  sleep 1
+  play 84
+  sleep 0.5
+  play 86
+  sleep 0.5
+  play 88
+  sleep 0.5
+  #
+  play 91
+  sleep 1.5
+  play 89
+  sleep 1
+  play 88
+  sleep 0.5
+  play 89
+  sleep 0.5
+  play 91
+  sleep 0.5
+  #
+  play 96
+  sleep 1.5
+  play 95
+  sleep 0.5
+  play 93
+  sleep 1
+  play 92
+  sleep 0.5
+  play 92
+  sleep 0.5
+end
+play 88
+sleep 2
+sleep 0.5
+play 88
+sleep 0.5
+play 89
+sleep 0.5
+play 91
+sleep 0.5
+#
+play 86
+sleep 2.5
+play 86
+sleep 0.5
+play 84
+sleep 0.5
+play 83
+sleep 0.5
+#
+play 86
+sleep 2.5
+play 86
+sleep 0.5
+play 88
+sleep 0.5
+play 89
+sleep 0.5
+#
+play 88 ,release: 3
+
+
+
+
